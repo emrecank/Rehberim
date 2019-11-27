@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        int a = 5;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         rehber_list=findViewById(R.id.rehber_list);
